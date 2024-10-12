@@ -25,23 +25,7 @@
 //     intArr[i] = Convert.ToInt32(Console.ReadLine());
 // }
 
-// Console.WriteLine("Введите число, по которому идет проверка: ");
-// int chisl = Convert.ToInt32(Console.ReadLine());
 
-// Console.WriteLine($"Количество элементов массива, значения которых больше, указанного вами: {countArrElements(intArr, chisl)}");
-
-// int countArrElements(int[] arr, int chislo)
-// {
-//     count = 0;
-//     for (int i = 0; i < arr.Length; i++)
-//     {
-//         if(arr[i] >= chislo)
-//         {
-//             count++;
-//         }
-//     }
-//     return count;
-// }
 
 int count = 5;
 int[,] matrix = new int[count,count];
